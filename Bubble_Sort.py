@@ -1,4 +1,9 @@
-l = [5,8,3,1,4]
+l = []
+number = int(input("Enter no. of Elements : "))
+for i in range(number):
+    value = int(input("Enter Elements :  "))
+    l.append(value)
+
 still_swapping = True
 
 while still_swapping:
@@ -10,4 +15,4 @@ while still_swapping:
             l[i+1] = temp
             still_swapping = True
 
-print(l)                      
+print("Array",l)                      
